@@ -3,6 +3,7 @@ package com.example.hw_week06_day03
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
@@ -54,5 +55,7 @@ class EditPost : AppCompatActivity() {
                 finish()
             })
         }
+
+
     }
 }
